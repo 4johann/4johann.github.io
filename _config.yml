@@ -1,0 +1,38 @@
+title: 4johann
+author: "Johann Cubillos"
+email: "johann@4johann.com"
+description: Blog personal
+baseurl: "/"
+url: "https://4johann.com"
+
+github_username: "4johann"
+facebook_username: "4johann"
+linkedin_id: "4johann"
+
+theme: jekyll-theme-potato-hacker
+theme_base: "dark"
+theme_switch: off
+
+blog: off
+avatar: on
+avatar_image: "assets/img/avatar.jpg"
+avatar_description: "Johann"
+highlighter_theme: github 
+toolbar_priority:
+  - About
+
+collections:
+  dropdown:
+    output: true
+  items:
+    output: true
+
+excerpt_separator: "<!--more-->"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
